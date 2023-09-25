@@ -71,6 +71,83 @@ removing synonyms from the tree.
 - `tree-joyce2023.svg`:
   This file contains a drawing of the phylogenetic tree.
 
+### Distribution records
+
+Specimen data were obtained
+from a search of geo-referenced preserved specimens of Sapindaceae in
+[GBIF](https://doi.org/10.15468/dl.tjpzv2).
+The initial number of records was 387.463 occurrences.
+
+To process the raw occurrence records in GBIF,
+first a taxonomy using the terminal names was built
+using the [GBIFer](https://github.com/js-arias/gbifer) tool:
+
+```bash
+gbifer tax add --rank species --file term-taxonomy.tab < terminals.txt
+```
+
+Then the taxonomy is filled with all potential taxon names
+from the occurrence file from GBIF
+that are synonyms or sub-species of the names
+already in the taxonomy file:
+
+```bash
+gbifer tax match --file term-taxonomy.tab < occurrence.txt
+```
+
+The taxonomy file was edited to correct spelling errors
+and match the [GBIF](https://www.gbif.org/species/6657) taxonomy
+with the taxonomy from the [Plants of the World](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000506-2).
+This updated taxonomy,
+in the file `term-taxonomy.tab`,
+is used to update the phylogenetic tree,
+removing synonyms from the tree.
+
+The taxonomy file was used to extract country information
+from the specimen records:
+
+```bash
+gbifer country --tax term.taxonomy.tab < occurrence.txt > countries.tab
+```
+
+The resulting file `countries.tab` was edited
+by removing the countries not explicitly defined in [Plants of the World](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000506-2)
+as native.
+
+Then the occurrence table from GBIF was filtered using both the taxonomy file and the country file.
+
+```bash
+gbifer filter -tax term-taxonomy.tab -country countries.tab < occurrence.txt > occu-in-tree-geo.txt
+```
+
+Then the filtered points are converted into a file of points
+to be used with the [taxRange](https://github.com/js-arias/ranges) tool:
+
+```bash
+gbifer export -tax term-taxonomy.tab < occu-in-tree-geo.txt > raw-gbif-records.tab
+```
+
+The filtered file,
+stored as `raw-gbif-records.tab`,
+contains 68.307 occurrences.
+
+As there are no geo-referenced specimen records for *Euchorium cubense*,
+a record file based on [a material citation for the taxon](https://www.gbif.org/occurrence/4135894102)
+is stored in the file `raw-euchorium-records.tab`.
+
+Finally,
+using the [taxRange](https://github.com/js-arias/ranges) tool,
+the filtered GBIF records are transformed into a file
+with presence pixels.
+
+```bash
+taxrange imp.points -e 360 -f text -o raw-points.tab raw-gbif-records.tab
+taxrange imp.points -e 360 -f text -o raw-euchorium-points.tab raw-euchorium-records.tab
+```
+
+The resulting file is stored in `raw-points.tab`.
+The directory `terminals` stores the maps of the used distribution ranges.
+
 ## References
 
 References are also available as BiBTeX in the file `biblio.bib`.
@@ -98,6 +175,11 @@ Cao, W. et al.
 Improving global paleogeography since the late Paleozoic using paleobiology.
 Biogeosciences, 14, 5425-5439.
 DOI: [10.5194/bg-14-5425-2017](https://doi.org/10.5194/bg-14-5425-2017).
+
+GBIF.org
+(2023)
+GBIF occurrence download.
+DOI: [10.15468/dl.tjpzv2](https://doi.org/10.15468/dl.tjpzv2).
 
 Joyce, E. M. et al.
 (2023)

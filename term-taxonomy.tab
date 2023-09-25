@@ -1,0 +1,455 @@
+name	author	taxonKey	rank	status	parent
+Acer campestre	L.	3189863	species	accepted	
+Acer campestre campestre		7467876	unranked	accepted	3189863
+Acer austriacum	Tratt.	3767761	species	synonym	7467876
+Acer campestre austriacum	(Tratt.) DC.	7408585	unranked	synonym	7467876
+Acer campestre collinum	DC.	7415093	unranked	synonym	7467876
+Acer campestre hebecarpum	(DC.) Pax	8100036	unranked	synonym	7467876
+Acer campestre hebecarpum	DC.	8170076	unranked	synonym	7467876
+Acer campestre leiocarpum	(Opiz) Tausch	7760544	unranked	synonym	7467876
+Acer campestre leiocarpum	(Opiz) Schwer.	7857258	unranked	synonym	7467876
+Acer campestre leiocarpum	(Opiz) Wallr.	7954087	unranked	synonym	7467876
+Acer campestre leiocarpum	(Opiz) Pax	8017699	unranked	synonym	7467876
+Acer campestre lobatum	Pax	8332593	unranked	synonym	7467876
+Acer campestre schwerinii	Hesse	12350507	unranked	homotypic_synonym	7467876
+Acer campestre tauricum	J.R.Booth ex G.Kirchn.	12285539	unranked	synonym	7467876
+Acer collinum	Ten.	3768229	species	synonym	7467876
+Acer leiocarpum	Opiz	7552786	species	synonym	7467876
+Acer macrocarpon	Opiz	3768688	species	synonym	7467876
+Acer microphyllum	Opiz	7819841	species	synonym	7467876
+Acer campestre marsicum	(Guss.) Hayek	7670302	unranked	accepted	3189863
+Acer campestre eriocarpon	Wallr.	11357373	unranked	proparte_synonym	7670302
+Acer campestre marsicum	(Guss.) K.Koch	7519110	unranked	synonym	7670302
+Acer campestre campestre		8717893	unranked	synonym	3189863
+Acer campestre hebecarpum	DC. ex Cariot & St.-Lag., 1889	8055346	unranked	synonym	3189863
+Acer palmatum	Thunb.	3189882	species	accepted	
+Acer palmatum amoenum	(Carrière) Ohwi	8097386	unranked	accepted	3189882
+Acer amoenum	Carrière	8879635	species	heterotypic_synonym	8097386
+Acer amoenum matsumurae	(Koidz.) K.Ogata	8021891	unranked	synonym	8097386
+Acer amoenum nambuanum	(Koidz.) K.Ogata	7527688	unranked	synonym	8097386
+Acer amoenum palmatipartitum	(Koidz.) K.Ogata	12311751	unranked	synonym	8097386
+Acer euseptemlobum	(Schwer.) Koidz.	8136665	species	synonym	8097386
+Acer horonaiense	Nakai	3768167	species	synonym	8097386
+Acer palmatum amoenum	(Carrière) H.Hara	4928739	unranked	synonym	8097386
+Acer palmatum dissectum	(Thunb.) Miq.	6709424	unranked	synonym	8097386
+Acer palmatum heptalobum	Rehder	8358367	unranked	synonym	8097386
+Acer palmatum horonaiense	(Nakai) H.Hara	12278223	unranked	synonym	8097386
+Acer palmatum matsumurae	Koidz.	6709420	unranked	synonym	8097386
+Acer palmatum matsumurae	(Koidz.) Makino	6709421	unranked	synonym	8097386
+Acer palmatum palmatipartitum	Koidz.	8426966	unranked	synonym	8097386
+Acer palmatum septemlobum	(K.Koch) Miq.	12273650	unranked	synonym	8097386
+Acer palmatum latilobatum	(Koidz.) Ohwi	7720210	unranked	accepted	3189882
+Acer palmatum palmatum		7263090	unranked	accepted	3189882
+Acer palmatum atropurpureum	(Van Houtte) G.Nicholson	7741606	unranked	synonym	7263090
+Acer formosum	Carrière	9222216	species	synonym	3189882
+Acer palmatum atropurpureum	Van Houtte	6709422	unranked	synonym	3189882
+Acer palmatum ornatum	(Carrière) André	7922719	unranked	synonym	3189882
+Acer palmatum palmatum		7650990	unranked	synonym	3189882
+Acer palmatum roseomarginatum	(Van Houtte) G.Nicholson	8073374	unranked	synonym	3189882
+Acer palmatum sanguineum	(Carriere) Schwer.	6709423	unranked	synonym	3189882
+Acer palmatum thunbergii	Pax	8233397	unranked	synonym	3189882
+Acer rubrum	L.	3189883	species	accepted	
+Acer rubrum drummondii	(Hook. & Arn. ex Nutt.) Sarg.	6449332	unranked	accepted	3189883
+Acer rubrum drummondii	(Hook. & Arn. ex Nutt.) A.E.Murray	8296362	unranked	synonym	6449332
+Acer rubrum rubrum	L.	7990464	unranked	accepted	3189883
+Acer rubrum trilobum	Torr. & A.Gray ex K.Koch	4272376	unranked	accepted	3189883
+Acer carolinianum	Walter	3768612	species	synonym	4272376
+Acer rubrum tridens	Alph.Wood	6359064	unranked	synonym	4272376
+Acer drummondii	Hook. & Arn. ex Nutt.	3768557	species	heterotypic_synonym	3189883
+Acer rubrum breviramusculum	Vict.	3768008	unranked	synonym	3189883
+Acer rubrum pallidiflorum	(K.Koch ex Pax) Fernald	6359096	unranked	synonym	3189883
+Acer rubrum rubrum		7262913	unranked	synonym	3189883
+Acer rubrum tomentosum	(Du Tour) Tausch	3767770	unranked	synonym	3189883
+Acer stenocarpum	Britton	3768169	species	synonym	3189883
+Rufacer rubrum	(L.) Small	3768134	species	synonym	3189883
+Aesculus chinensis	Bunge	7323139	species	accepted	
+Aesculus chinensis wilsonii	(Rehder) Turland & N.H.Xia	3672366	unranked	accepted	7323139
+Aesculus wilsonii	Rehder	3672363	species	synonym	3672366
+Aesculus chekiangensis	Hu & W.P.Fang	3672383	species	synonym	7323139
+Aesculus chinensis chekiangensis	(Hu & W.P.Fang) W.P.Fang	3672374	unranked	synonym	7323139
+Aesculus chinensis chinensis		7323140	unranked	synonym	7323139
+Aesculus pavia	L.	3189807	species	accepted	
+Aesculus pavia flavescens	(Sarg.) Correll	6429213	unranked	accepted	3189807
+Aesculus discolor flavescens	Sarg.	3189808	unranked	synonym	6429213
+Aesculus pavia pavia		7221293	unranked	accepted	3189807
+Aesculus austrina	Small	3672328	species	synonym	3189807
+Aesculus discolor	Pursh	6429216	species	synonym	3189807
+Aesculus discolor mollis	(Raf.) Sarg.	3672317	unranked	synonym	3189807
+Aesculus pavia discolor	(Pursh) Torr. & A.Gray	3672324	unranked	synonym	3189807
+Aesculus rubra	Pers.	3672346	species	synonym	3189807
+Alatococcus siqueirae	Acev.-Rodr.	7637656	species	accepted	
+Alectryon carinatus	Radlk.	7521337	species	accepted	
+Allophylastrum frutescens	Acev.-Rodr.	7485736	species	accepted	
+Allophylus arboreus	Choux	5577946	species	accepted	
+Allophylus cobbe arboreus	(Choux) Capuron	7929487	unranked	synonym	5577946
+Allophylus trichodesmus	Radlk.	5576842	species	accepted	
+Amesiodendron chinense	(Merr.) Hu	3784591	species	accepted	
+Amesiodendron integrifoliolatum	H.S.Lo	3784586	species	synonym	3784591
+Amesiodendron tienlinense	H.S.Lo	11068053	species	synonym	3784591
+Amesiodendron tienlinensis	H.S.Lo	3784581	species	synonym	3784591
+Paranephelium chinense	Merr.	3785688	species	synonym	3784591
+Aporrhiza paniculata	Radlk.	3784249	species	accepted	
+Aporrhiza nitida	Gilg	3784255	species	synonym	3784249
+Aporrhiza nitida	Gilg ex Milne-Redh.	8315796	species	synonym	3784249
+Arfeuillea arborescens	Pierre	3784214	species	accepted	
+Arytera litoralis	Blume	8108619	species	accepted	
+Arytera xerocarpa	(Blume) Adelb.	3783861	species	proparte_synonym	8108619
+Atalaya alata	(Sim) H.M.L.Forbes	7734118	species	accepted	
+Atalaya capensis	R.A.Dyer	3783788	species	accepted	
+Athyana weinmanniifolia	(Griseb.) Radlk.	8278548	species	accepted	
+Athyana weimannifolia	(Griseb.) Radlk., 1888	3788312	species	synonym	8278548
+Thouinia weinmanniifolia	Griseb.	7761423	species	synonym	8278548
+Beguea apetala	Capuron	3788226	species	accepted	
+Billia hippocastanum	Peyr.	3672320	species	accepted	
+Aesculus mexicana	Benth. & Hook.fil. ex Hemsl.	8198095	species	synonym	3672320
+Quercus pertessellata	Trel.	3906547	species	synonym	3672320
+Blighia sapida	K.D.Koenig	3189955	species	accepted	
+Blighiopsis pseudostipularis	Van der Veken	3788128	species	accepted	
+Blomia prisca	(Standl.) Lundell	5578327	species	accepted	
+Blomia cupanioides	Miranda	5578330	species	synonym	5578327
+Cupania prisca	Standl.	3784896	species	synonym	5578327
+Tikalia prisca	(Standl.) Lundell	3786888	species	synonym	5578327
+Bridgesia incisifolia	Bertero ex Cambess.	5578317	species	accepted	
+Camptolepis ramiflora	(Taub.) Radlk.	3788017	species	accepted	
+Cardiospermum halicacabum	L.	3189939	species	accepted	
+Corindum halicacabum	(L.) Medik.	5577668	species	synonym	3189939
+Castanospora alphandii	(F.Muell.) F.Muell.	7668559	species	accepted	
+Cnesmocarpon dasyantha	(Radlk.) Adema	3786718	species	accepted	
+Jagera dasyantha	(Radlk.) S.T.Reynolds	3785978	species	synonym	3786718
+Conchopetalum brachysepalum	Capuron	3786640	species	accepted	
+Cossinia australiana	S.T.Reynolds	3786529	species	accepted	
+Cubilia cubili	(Blanco) Adelb.	5577576	species	accepted	
+Cubilia rumphii	Blume	5577573	species	synonym	5577576
+Euphoria cubili	Blanco	5578421	species	synonym	5577576
+Cupania dentata	Moc. & Sessé	7383744	species	accepted	
+Cupania hirsuta	Radlk.	3785458	species	accepted	
+Cupania cooperi	Standl.	3785929	species	synonym	3785458
+Cupania lanuginosa	Sagot	7647850	species	synonym	3785458
+Cupania rubiginosa	(Poir.) Radlk.	3784733	species	accepted	
+Cupania tepuiensis	Steyerm. & Maguire	3784392	species	synonym	3784733
+Robinia mollissima	Vahl ex Poir.	5633699	species	synonym	3784733
+Cupania scrobiculata	Rich.	7802452	species	accepted	
+Cupania scrobiculata reticulata	(Cambess.) Radlk.	7696112	unranked	accepted	7802452
+Cupania auriculata	Standl.	3786123	species	synonym	7802452
+Cupania guianensis	Miq.	3785474	species	synonym	7802452
+Cupania porosa	Miq.	3784911	species	synonym	7802452
+Cupania scrobiculata frondosa	(Benth.) Radlk., 1879	10105934	unranked	synonym	7802452
+Cupania scrobiculata guianensis	(Miq.) Radlk., 1879	8747584	unranked	synonym	7802452
+Cupania scrobiculata guianensis	(Miq.) Uittien, 1937	9317656	unranked	synonym	7802452
+Cupania scrobiculata scrobiculata		8636672	unranked	synonym	7802452
+Cupania triloba	Triana & Planch.	3784356	species	synonym	7802452
+Cupaniopsis anacardioides	(A.Rich.) Radlk.	3189958	species	accepted	
+Cupaniopsis macropetala	Radlk.	3783877	species	accepted	
+Cupaniopsis trigonocarpa	Radlk.	8385716	species	accepted	
+Deinbollia pinnata	(Poir.) Schumach. & Thonn.	3787801	species	accepted	
+Delavaya toxocarpa	Franch.	5578218	species	accepted	
+Delavaya yunnanensis	Franch.	5578216	species	synonym	5578218
+Diatenopteryx sorbifolia	Radlk.	3787646	species	accepted	
+Thouinia ornifolia	Griseb.	5578072	species	synonym	3787646
+Dictyoneura obtusa	Blume	5578172	species	accepted	
+Dilodendron costaricense	(Radlk.) A.H.Gentry & Steyerm.	3787484	species	accepted	
+Dipterodendron costaricense	Radlk.	3786868	species	synonym	3787484
+Dimocarpus longan	Lour.	3190008	species	accepted	
+Euphoria longan	(Lour.) Steud.	5421143	species	synonym	3190008
+Euphoria longana	Lam.	5421142	species	synonym	3190008
+Nephelium longana	(Lam.) Cambess.	5577939	species	synonym	3190008
+Diploglottis campbellii	Cheel	8168552	species	accepted	
+Diplopeltis huegelii	Endl.	7265020	species	accepted	
+Diplopeltis huegelii huegelii		7265021	unranked	accepted	7265020
+Diplopeltis huegelii lehmannii	(Miq.) Keighery	5577900	unranked	accepted	7265020
+Diplopeltis huegelii subintegra	(A.S.George) Keighery	5577893	unranked	accepted	7265020
+Dipteronia dyeriana	Henry	3768558	species	accepted	
+Dipteronia sinensis	Oliv.	7263106	species	accepted	
+Dipteronia sinensis taipaiensis	W.P.Fang & M.Y.Fang	8300090	unranked	synonym	7263106
+Dodonaea dodecandra	(Domin) M.G.Harr.	8396496	species	accepted	
+Distichostemon dodecandrus	Domin	3786782	species	synonym	8396496
+Dodonaea viscosa	(L.) Jacq.	5421144	species	accepted	
+Dodonaea viscosa angustifolia	(L.fil.) J.G.West	5421146	unranked	accepted	5421144
+Dodonaea angustifolia	L.fil.	8242130	species	synonym	5421146
+Dodonaea serrulata	DC.	5577005	species	synonym	5421146
+Dodonaea viscosa angustifolia	(L.fil.) Benth.	7772107	unranked	synonym	5421146
+Dodonaea viscosa angustissima	(DC.) J.G.West	5576860	unranked	accepted	5421144
+Dodonaea angustissima	DC.	5577685	species	synonym	5576860
+Dodonaea attenuata	A.Cunn.	7102350	species	synonym	5576860
+Dodonaea viscosa burmanniana	(DC.) J.G.West	11052502	unranked	accepted	5421144
+Dodonaea burmanniana	DC.	5577609	species	proparte_synonym	11052502
+Dodonaea viscosa burmanniana	(DC.) Radlk.	5576645	unranked	proparte_synonym	11052502
+Dodonaea viscosa cuneata	(Sm.) J.G.West	5576821	unranked	accepted	5421144
+Dodonaea cuneata	Sm.	7102302	species	heterotypic_synonym	5576821
+Dodonaea viscosa elaeagnoides	(Rudolphi ex Ledeb. & Adlerstam) Acev.-Rodr.	8026810	unranked	accepted	5421144
+Dodonaea elaeagnoides	Rudolphi ex Ledeb. & Adlerstam	5421150	species	synonym	8026810
+Dodonaea elaeagnoides	Rudolphi	7982478	species	homotypic_synonym	8026810
+Dodonaea viscosa mucronata	J.G.West	5576786	unranked	accepted	5421144
+Dodonaea viscosa spatulata	(Sm.) J.G.West	5576763	unranked	accepted	5421144
+Dodonaea viscosa arborescens	(Hook.fil.) Sherff	5421170	unranked	synonym	5576763
+Dodonaea viscosa spatulata	(Sm. ex Rees) Benth.	7995935	unranked	synonym	5576763
+Dodonaea viscosa viscosa		7221302	unranked	accepted	5421144
+Dodonaea arborea	Herter	5577671	species	synonym	7221302
+Dodonaea bialata	Kunth	5577631	species	synonym	7221302
+Dodonaea ehrenbergii	Schltdl.	5421162	species	synonym	7221302
+Dodonaea eriocarpa	Sm.	5421147	species	synonym	7221302
+Dodonaea eriocarpa acuminata	O.Deg. & Sherff	7656620	unranked	synonym	7221302
+Dodonaea eriocarpa confertior	Sherff	5421148	unranked	synonym	7221302
+Dodonaea eriocarpa costulata	O.Deg., I.Deg. & Sherff	5421172	unranked	synonym	7221302
+Dodonaea eriocarpa degeneri	Sherff	5421163	unranked	synonym	7221302
+Dodonaea eriocarpa glabrescens	Sherff	5421174	unranked	synonym	7221302
+Dodonaea eriocarpa lanaiensis	Sherff	5421165	unranked	synonym	7221302
+Dodonaea eriocarpa molokaiensis	O.Deg. & Sherff	5421155	unranked	synonym	7221302
+Dodonaea eriocarpa vaccinioides	Sherff	5421157	unranked	synonym	7221302
+Dodonaea eriocarpa varians	O.Deg. & Sherff	5421168	unranked	synonym	7221302
+Dodonaea jamaicensis	DC.	5421173	species	synonym	7221302
+Dodonaea microcarpa	DC.	5577188	species	proparte_synonym	7221302
+Dodonaea microcarya	Small	5421164	species	synonym	7221302
+Dodonaea sandwicensis	Sherff	5421171	species	synonym	7221302
+Dodonaea thunbergiana	Eckl. & Zeyh.	7102163	species	proparte_synonym	7221302
+Dodonaea viscosa eriocarpoidea	Sherff	5576808	unranked	synonym	7221302
+Dodonaea viscosa galapagensis	(Sherff) D.M.Porter	7449109	unranked	synonym	7221302
+Dodonaea viscosa linearis	(Harvey & Sond.) Sherff	10668250	unranked	proparte_synonym	7221302
+Dodonaea viscosa obovata	C.L.Hitchc.	5576782	unranked	synonym	7221302
+Dodonaea thunbergiana	Radlk.	7501211	species	synonym	5421144
+Dodonaea viscosa viscosa		7102117	unranked	synonym	5421144
+Dodonaea viscosa vulgaris	Benth.	5576755	unranked	synonym	5421144
+Elattostachys apetala	(Labill.) Radlk.	3784600	species	accepted	
+Elattostachys falcata	(A.Gray) Radlk.	3784409	species	synonym	3784600
+Elattostachys vitiensis	(Seem.) Radlk.	3784325	species	synonym	3784600
+Elattostachys nervosa	(F.Muell.) Radlk.	3784362	species	accepted	
+Euchorium cubense	Ekman & Radlk.	3783834	species	accepted	
+Euphorianthus euneurus	(Miq.) Leenh.	3788155	species	accepted	
+Euphorianthus obtusatus	Radlk.	3788135	species	synonym	3788155
+Eurycorymbus cavaleriei	(H.Lév.) Rehder & Hand.-Mazz.	3788104	species	accepted	
+Eurycorymbus austrosinensis	Hand.-Mazz.	3788110	species	synonym	3788104
+Exothea paniculata	(Juss.) Walp.	7998910	species	accepted	
+Exothea paniculata	(Juss.) Radlk.	3189942	species	synonym	7998910
+Hypelate paniculata	(Juss.) Cambess.	3786064	species	synonym	7998910
+Hypelate trifoliata griseb	Griseb.	8121418	species	heterotypic_synonym	7998910
+Filicium decipiens	(Wight & Arn.) Thwaites	3189977	species	accepted	
+Filicium decipiens	(Wight & Arn.) Thwaites ex Hook.f.	7891675	species	heterotypic_synonym	3189977
+Filicium longifolium	(H.Perrier) Capuron	3788027	species	accepted	
+Filicium thouarsianum	(DC.) Capuron	3788019	species	accepted	
+Filicium abbreviatum	Radlk.	3788042	species	synonym	3788019
+Ganophyllum falcatum	Blume	3787993	species	accepted	
+Gereaua perrieri	(Capuron) Buerki & Callm.	7380384	species	accepted	
+Haplocoelum perrieri	Capuron	3787043	species	synonym	7380384
+Glenniea africana	(Radlk.) Leenh.	5578264	species	accepted	
+Crossonephelis africanus	(Radlk.) Leenh.	3786452	species	synonym	5578264
+Crossonephelis oblongus	Capuron	8565619	species	homotypic_synonym	5578264
+Melanodiscus africanus	Radlk.	5576606	species	synonym	5578264
+Gongrodiscus bilocularis	H.Turner	3787778	species	accepted	
+Guindilia trinervis	Gillies ex Hook.	3787709	species	accepted	
+Guindilia trinervis	Gillies	7586088	species	synonym	3787709
+Valenzuelia trinervis	(Gillies) Bertero ex Cambess.	5577143	species	synonym	3787709
+Valenzuelia trinervis	(Gillies) Bertero	8674630	species	homotypic_synonym	3787709
+Guioa rhoifolia	(A.Gray) Radlk.	3787234	species	accepted	
+Handeliodendron bodinieri	(H.Lév.) Rehder	4014664	species	accepted	
+Haplocoelopsis africana	F.G.Davies	3787100	species	accepted	
+Haplocoelum foliolosum	(Hiern) Bullock	7265029	species	accepted	
+Haplocoelum foliolosum foliolosum		7265030	unranked	accepted	7265029
+Haplocoelum foliolosum mombasense	(Bullock) Verdc.	3787053	unranked	accepted	7265029
+Haplocoelum mombasense	Bullock	3787179	species	synonym	3787053
+Haplocoelum foliolosum strongylocarpum	(Bullock) Verdc.	3787146	unranked	accepted	7265029
+Haplocoelum gallaense	(Engl.) Radlk.	3787149	species	synonym	3787146
+Haplocoelum inoploeum	Radlk.	8046065	species	accepted	
+Haplocoelum trigonocarpum	Radlk.	3787022	species	synonym	8046065
+Harpullia rhyticarpa	C.T.White	3786608	species	accepted	
+Hippobromus pauciflorus	(L.fil.) Radlk.	3786253	species	accepted	
+Hippobromus alata	(Thunb.) Eckl. & Zeyh.	7671256	species	synonym	3786253
+Hirania rosea	Thulin	3786238	species	accepted	
+Hornea mauritiana	(Bojer) Baker	5577524	species	accepted	
+Hypelate trifoliata	Sw.	3189972	species	accepted	
+Jagera javanica	(Blume) Kalkman	7264897	species	accepted	
+Jagera serrata	(Roxb.) Radlk.	3785863	species	synonym	7264897
+Jagera speciosa	Blume	3785855	species	synonym	7264897
+Koelreuteria paniculata	Laxm.	5421180	species	accepted	
+Koelreuteria apiculata	Rehder & E.H.Wilson	5421181	species	synonym	5421180
+Koelreuteria paniculata apiculata	(Rehder & E.H.Wilson) Rehder	8187222	unranked	synonym	5421180
+Laccodiscus ferrugineus	(Baker) Radlk.	3785678	species	accepted	
+Lecaniodiscus cupanioides	Planch.	3785542	species	accepted	
+Lepiderema ixiocarpa	S.T.Reynolds	3785480	species	accepted	
+Lepiderema punctulata	(F.Muell.) Radlk.	3785439	species	accepted	
+Cupaniopsis punctulata	(F.Muell.) Radlk.	3788420	species	synonym	3785439
+Lepidocupania arcuata	(Radlk.) Buerki, Callm., Munzinger & Lowry	11160410	species	accepted	
+Arytera arcuata	Radlk.	3784195	species	synonym	11160410
+Lepidocupania lepidota	(Radlk.) Buerki, Callm., Munzinger & Lowry	11212643	species	accepted	
+Arytera lepidota	Radlk.	3784038	species	synonym	11212643
+Lepidocupania squamosa	(Adema) Buerki, Callm., Munzinger & Lowry	11157598	species	accepted	
+Cupaniopsis squamosa	Adema	3788335	species	synonym	11157598
+Lepidopetalum perrottetii	Blume	3785366	species	accepted	
+Lepisanthes ramiflora	(Radlk.) Leenh.	3784971	species	accepted	
+Lepisanthes rubiginosa	(Roxb.) Leenh.	3784961	species	accepted	
+Erioglossum edule	Blume	9769774	species	synonym	3784961
+Erioglossum rubiginosum	(Roxb.) Blume	3784078	species	synonym	3784961
+Erioglossum rubiginosum	Radlk.	7787518	species	synonym	3784961
+Lepisanthes hirta	Ridl.	3785079	species	synonym	3784961
+Sapindus edulis	Blume	11048836	species	heterotypic_synonym	3784961
+Litchi chinensis	Sonn.	3190002	species	accepted	
+Litchi chinensis chinensis		7264780	unranked	accepted	3190002
+Litchi sinensis	(Sonn.) J.F.Gmel.	3784834	species	synonym	7264780
+Litchi sinensis	Sonn.	8245566	species	synonym	7264780
+Nephelium litchi	(Desf.) Cambess.	5421141	species	synonym	7264780
+Litchi chinensis javensis	Leenh.	3784868	unranked	accepted	3190002
+Litchi chinensis philippinensis	(Radlk.) Leenh.	3784857	unranked	accepted	3190002
+Litchi philippinensis	Radlk.	7782888	species	synonym	3784857
+Litchi philippinensis mindanaensis	Radlk.	9195502	unranked	synonym	3784857
+Llagunoa nitida	Ruiz & Pav.	7956671	species	accepted	
+Amirola nitida	(Ruiz & Pav.) Pers.	3784566	species	synonym	7956671
+Llagunoa mandonii	Rusby	7931017	species	synonym	7956671
+Llagunoa mollis	Kunth	3784800	species	synonym	7956671
+Llagunoa nitida mollis	(Kunth) Kuntze	3784787	unranked	synonym	7956671
+Lophostigma plumosum	Radlk.	5576847	species	accepted	
+Loxodiscus coriaceus	Hook.fil.	3784727	species	accepted	
+Macphersonia cauliflora	Radlk.	3784658	species	accepted	
+Macphersonia cauliflora cauliflora		7412036	unranked	accepted	3784658
+Macphersonia cauliflora macrophylla	(Oliv.) Capuron	8392780	unranked	accepted	3784658
+Magonia pubescens	A.St.-Hil.	5576757	species	accepted	
+Magonia glabrata	A.St.-Hil.	5576758	species	synonym	5576757
+Majidea zanguebarica	J.Kirk	3784540	species	accepted	
+Majidea zanguebarica madagascariensis	(Baill.) Capuron	8074477	unranked	accepted	3784540
+Majidea madagascariensis	(Baill.) Radlk.	3784552	species	synonym	8074477
+Majidea zanguebarica zanguebarica		7740534	unranked	accepted	3784540
+Majidea zanguebarica	Kirk ex Oliv.	7695131	species	synonym	7740534
+Melicoccus bijugatus	Jacq.	3189990	species	accepted	
+Melicocca bijuga	(Jacq.) L.	7264662	species	synonym	3189990
+Melicoccus bijuga	L.	3189991	species	synonym	3189990
+Mischarytera lautereriana	(F.M.Bailey) H.Turner	3788264	species	accepted	
+Arytera lautereriana	(F.M.Bailey) Radlk.	3784063	species	synonym	3788264
+Mischocarpus pyriformis	(F.Muell.) Radlk.	7265138	species	accepted	
+Mischocarpus pyriformis papuanus	(Radlk.) R.W.Ham	3788060	unranked	accepted	7265138
+Mischocarpus papuanus	Radlk.	3788092	species	synonym	3788060
+Mischocarpus pyriformis pyriformis		7265139	unranked	accepted	7265138
+Mischocarpus pyriformis retusus	(Radlk.) R.W.Ham	3788045	unranked	accepted	7265138
+Mischocarpus montanus	C.T.White	3788101	species	synonym	3788045
+Mischocarpus retusus	Radlk.	3788036	species	synonym	3788045
+Molinaea sessilifolia	Capuron	6037872	species	accepted	
+Molinaea tolambitou	(Cambess.) Radlk.	6037870	species	accepted	
+Molinaea petiolaris	Radlk.	6037876	species	synonym	6037870
+Molinaea tolambitou obtusa	Capuron	12350466	unranked	synonym	6037870
+Molinaea tolambitou tolambitou		8375156	unranked	synonym	6037870
+Nephelium lappaceum	L.	5421126	species	accepted	
+Nephelium lappaceum lappaceum		7265044	unranked	accepted	5421126
+Nephelium lappaceum pallens	(Hiern) Leenh.	5577976	unranked	accepted	5421126
+Nephelium lappaceum xanthioides	(Radlk.) Leenh.	5577973	unranked	accepted	5421126
+Nephelium chryseum	Blume	7265075	species	synonym	5421126
+Nephelium sufferugineum	Radlk.	5577762	species	synonym	5421126
+Otonephelium stipulaceum	(Bedd.) Radlk.	3786294	species	accepted	
+Pancovia bijuga	Willd.	5577388	species	accepted	
+Pappea capensis	Eckl. & Zeyh.	3785741	species	accepted	
+Pappea capensis radlkoferi	(Schweinf. ex Penz.) Schinz	8052986	unranked	synonym	3785741
+Pappea ugandensis	Baker fil.	8078549	species	synonym	3785741
+Paranephelium macrophyllum	King	3785648	species	accepted	
+Paranephelium xestophyllum	Miq.	3785620	species	accepted	
+Paranephelium nitidum	King	3785633	species	synonym	3785620
+Paullinia pinnata	L.	3189950	species	accepted	
+Paullinia grandiflora	Cambess.	3784319	species	proparte_synonym	3189950
+Paullinia nitida	Steud.	3788268	species	heterotypic_synonym	3189950
+Paullinia pendulifolia	Rusby	3788071	species	synonym	3189950
+Paullinia subauriculata	Radlk.	3787405	species	accepted	
+Pavieasia anamensis	Pierre	3786519	species	accepted	
+Pavieasia yunnanensis	H.S.Lo	3786503	species	synonym	3786519
+Sapindus anamensis	Pierre	5576954	species	synonym	3786519
+Pentascyphus thyrsiflorus	Radlk.	3786334	species	accepted	
+Placodiscus turbinatus	Radlk.	5577428	species	accepted	
+Plagioscyphus jumellei	(Choux) Capuron	8335584	species	accepted	
+Podonephelium homei	(Seem.) Radlk.	3785925	species	accepted	
+Pometia pinnata	J.R.Forst. & G.Forst.	5577338	species	accepted	
+Pometia pinnata pinnata		8420534	unranked	accepted	5577338
+Pometia pinnata tomentosa	(Blume) Jacobs	8390122	unranked	accepted	5577338
+Pometia tomentosa	(Blume) Teijsm. & Binn.	5577314	species	synonym	8390122
+Pometia acuminata	(Hook.fil.) Radlk.	5577392	species	synonym	5577338
+Pometia pinnata acuminata	(Hook.fil.) Jacobs	12347080	unranked	synonym	5577338
+Pometia pinnata alnifolia	(Blume) Jacobs	12355985	unranked	synonym	5577338
+Pometia pinnata cuspidata	(Blume) Jacobs	12355462	unranked	synonym	5577338
+Pometia pinnata glabra	(Blume) Jacobs	9120815	unranked	synonym	5577338
+Pometia pinnata macrocarpa	(Kurz) Jacobs	8972403	unranked	synonym	5577338
+Pometia pinnata repanda	Jacobs	12299358	unranked	synonym	5577338
+Pseudopteris decipiens	Baill.	3785543	species	accepted	
+Radlkofera calodendron	Gilg	3785493	species	accepted	
+Rhysotoechia flavescens	Radlk.	3785119	species	accepted	
+Rhysotoechia robertsonii	(F.Muell.) Radlk.	3785045	species	accepted	
+Sapindus mukorossi	Gaertn.	5421133	species	accepted	
+Sapindus detergens	Roxb.	8287009	species	heterotypic_synonym	5421133
+Sapindus indicus	Poir.	5576789	species	synonym	5421133
+Sapindus oocarpus	Radlk.	5576722	species	synonym	5421133
+Sapindus utilis	Trab.	5576619	species	synonym	5421133
+Sapindus saponaria	L.	8017915	species	accepted	
+Sapindus saponaria inaequalis	Radlk.	5576661	unranked	accepted	8017915
+Sapindus saponaria saponaria	L.	7102086	unranked	accepted	8017915
+Sapindus acuminatus	Raf.	5576975	species	heterotypic_synonym	8017915
+Sapindus divaricatus	Willd. ex A.St.-Hil.	5576866	species	synonym	8017915
+Sapindus forsythii	DC.	5576833	species	synonym	8017915
+Sapindus inaequalis	DC.	5576793	species	synonym	8017915
+Sapindus juglandifolius	A.St.-Hil.	12389661	species	proparte_synonym	8017915
+Sapindus marginatus	Willd.	5576764	species	synonym	8017915
+Sapindus saponaria genuinus	Radlk.	5576664	unranked	synonym	8017915
+Sapindus saponaria inaequalis	(DC.) Radlk.	7559030	unranked	synonym	8017915
+Sapindus stenopterus	DC.	5576637	species	synonym	8017915
+Sapindus turczaninowii	S.Vidal	5576622	species	synonym	8017915
+Sapindus vitiensis	A.Gray	5576617	species	synonym	8017915
+Sarcopteryx squamosa	(Roxb.) Radlk.	3784096	species	accepted	
+Sarcotoechia cuneata	Radlk.	3784055	species	accepted	
+Serjania communis	Cambess.	7265010	species	accepted	
+Serjania communis alsmithii	(J.F.Macbr.) Acev.-Rodr.	5577842	unranked	accepted	7265010
+Serjania alsmithii	J.F.Macbr.	5578087	species	synonym	5577842
+Serjania communis communis	Cambess.	7265011	unranked	accepted	7265010
+Serjania communis glabra	Radlk.	5577840	unranked	accepted	7265010
+Serjania communis pilosula	Radlk.	5577834	unranked	synonym	7265010
+Serjania hirsuta	Cambess.	5577467	species	synonym	7265010
+Serjania stenopterygia	Radlk.	5576735	species	synonym	7265010
+Serjania incana	Radlk.	7264902	species	accepted	
+Houssayanthus incanus	(Radlk.) Ferrucci	3786169	species	synonym	7264902
+Serjania humifusa	Radlk.	5577453	species	synonym	7264902
+Boniodendron parviflorum	(Lecomte) Gagnep.	3788088	species	accepted	
+Sisyrolepis muricata	(Pierre) Leenh.	3784220	species	accepted	
+Stadtmannia oppositifolia	Lam.	3784040	species	accepted	
+Stadmannia oppositifolia grevei	(Danguy & Choux) Capuron	8749712	unranked	accepted	3784040
+Stadmannia oppositifolia oppositifolia		7342795	unranked	accepted	3784040
+Stadmannia sideroxylon	DC.	3784014	species	synonym	7342795
+Stadmannia oppositifolia	Lam.	10675076	species	synonym	7342795
+Stadtmannia oppositifolia rhodesica	Exell	11436446	unranked	synonym	7342795
+Stadmannia oppositifolia rhodesica	Exell	9055561	unranked	accepted	3784040
+Stocksia brahuica	Benth.	5576615	species	accepted	
+Storthocalyx chryseus	Radlk.	3783969	species	accepted	
+Synima cordierorum	(F.Muell.) Radlk.	10770280	species	accepted	
+Talisia nervosa	Radlk.	3788079	species	accepted	
+Talisia amaruayana	Steyerm.	3783849	species	synonym	3788079
+Talisia dwyeri	Croat	3788373	species	synonym	3788079
+Talisia grandifolia	Cuatrec.	3788280	species	synonym	3788079
+Talisia tiricensis	Steyerm. & Maguire	3787867	species	synonym	3788079
+Thinouia myriantha	Triana & Planch.	3787794	species	accepted	
+Thinouia tomocarpa	Standl.	3787729	species	synonym	3787794
+Thouinia acuminata	S.Watson	7265105	species	accepted	
+Thouinia acuminata pubicalyx	Radlk.	5578211	unranked	synonym	7265105
+Thouinidium decandrum	(Bonpl.) Radlk.	3787056	species	accepted	
+Thouinidium matudae	Lundell	3787011	species	synonym	3787056
+Tina tamatavensis	(Capuron) Callm. & Buerki	7382807	species	accepted	
+Tinopsis tamatavensis	Capuron	3786624	species	synonym	7382807
+Toechima erythrocarpum	(F.Muell.) Radlk.	7264971	species	accepted	
+Toechima erythrocarpum erythrocarpum		7264972	unranked	accepted	7264971
+Toechima erythrocarpum papuanum	Leenh.	3786550	unranked	accepted	7264971
+Toechima livescens	Radlk.	3786525	species	synonym	3786550
+Toulicia reticulata	Radlk.	3786285	species	accepted	
+Trigonachras postardanjeisin	Buerki & Callm.	7607028	species	accepted	
+Tripterodendron filicifolium	Radlk.	3786081	species	accepted	
+Tristira triptera	(Blanco) Radlk.	5577447	species	accepted	
+Melicocca triptera	Blanco	3788397	species	synonym	5577447
+Tristira pubescens	Merr.	5577451	species	synonym	5577447
+Tristiropsis acutangula	Radlk.	3786018	species	accepted	
+Tristiropsis obtusangula	Radlk.	3785954	species	synonym	3786018
+Tristiropsis ovata	Radlk.	3785950	species	synonym	3786018
+Tristiropsis subangula	K.Schum.	3785934	species	synonym	3786018
+Tristiropsis subfalcata	Radlk.	3785927	species	synonym	3786018
+Tsingya bemarana	Capuron	3785907	species	accepted	
+Ungnadia speciosa	Endl.	3190006	species	accepted	
+Urvillea ulmacea	Kunth	5421125	species	accepted	
+Urvillea berteriana	A.DC.	8774677	species	synonym	5421125
+Urvillea dasycarpa	Radlk.	5577328	species	synonym	5421125
+Urvillea mexicana	A.Gray	5577244	species	synonym	5421125
+Urvillea ulmacea lanceolata	(Cambess.) Radlk.	12276210	unranked	synonym	5421125
+Vouarana guianensis	Aubl.	3785403	species	accepted	
+Xanthoceras sorbifolium	Bunge	7221300	species	accepted	
+Xerospermum noronhianum	(Blume) Blume	9209685	species	accepted	
+Xerospermum intermedium	Radlk.	3785307	species	synonym	9209685
+Xerospermum lanceolatum	Radlk.	3785292	species	synonym	9209685
+Xerospermum muricatum	Radlk.	3785265	species	synonym	9209685
+Zanha golungensis	Hiern	3785189	species	accepted	
+Zanha vuilletii	A.Chev.	3784825	species	synonym	3785189
+Zollingeria borneensis	Adema	5576898	species	accepted	

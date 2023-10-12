@@ -148,6 +148,40 @@ taxrange imp.points -e 360 -f text -o raw-euchorium-points.tab raw-euchorium-rec
 The resulting file is stored in `raw-points.tab`.
 The directory `terminals` stores the maps of the used distribution ranges.
 
+## Analysis
+
+### Landscape
+
+Key | Prior | Environment
+--- | ----- | -----------
+  1 | 0.001 | oceanic plateaus
+  2 | 0.005 | continental shelf
+  3 | 1.000 | lowlands
+  4 | 1.000 | highlands
+  5 | 0.001 | ice sheets
+
+- `landscape-key.tab`:
+  This file contains the keys for the landscape features
+  of the paleolandscape model.
+- `model-pix-prior.tab`:
+  This file contains the definition of the pixel priors
+  used in the analysis.
+
+### Project
+
+To set up a project,
+all input data is added to the project.
+Here the project is stored in the `project.tab` file:
+
+```bash
+phygeo geo add -type geomotion project.tab muller-motion-360-5.tab 
+phygeo geo add -type landscape project.tab muller-landscape-cao-paleomap-360-5.tab
+phygeo geo prior -add model-pix-prior.tab project.tab
+phygeo tree add -f data-tree.tab project.tab data-tree.tab
+phygeo range add -f data-points.tab -type points project.tab raw-points.tab 
+phygeo range add -type points project.tab raw-euchorium-points.tab 
+```
+
 ## References
 
 References are also available as BiBTeX in the file `biblio.bib`.

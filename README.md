@@ -182,6 +182,44 @@ phygeo range add -f data-points.tab -type points project.tab raw-points.tab
 phygeo range add -type points project.tab raw-euchorium-points.tab 
 ```
 
+## Results
+
+### Estimation
+
+Maximum likelihood
+was estimated using the command `diff ml` of `PhyGeo`.
+The output log is stored in log-ml.txt file:
+
+```bash
+phygeo diff ml project.tab > log-ml.txt
+```
+
+The maximum likelihood estimation of $\lambda$ was 35.9.
+
+Then,
+an estimation of the posterior distribution
+using a uniform prior between 0 and 200
+was made with the command `diff integrate`,
+and storing the output in the log file `log-like.txt`:
+
+```bash
+phygeo diff integrate -parts 100 -max 200 project > log-like.txt
+```
+
+Using these results,
+the posterior distribution of the pixels
+is calculated by approximating
+the posterior distribution of $\lambda$
+with a [gamma distribution](https://en.wikipedia.org/wiki/Gamma_distribution),
+with $\alpha$=108, $\beta$=3 (rate),
+and making 1000 samples from this distribution,
+and calculating 100 stochastic mappings
+from each sample:
+
+```bash
+phygeo diff integrate -distribution gamma="108,3" -p 100 --parts 1000 project
+```
+
 ## References
 
 References are also available as BiBTeX in the file `biblio.bib`.

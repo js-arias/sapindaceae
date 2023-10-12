@@ -220,6 +220,56 @@ from each sample:
 phygeo diff integrate -distribution gamma="108,3" -p 100 --parts 1000 project
 ```
 
+### Outputs
+
+The output is quite large to be posted here
+(about 4.3 GB,
+or 962 MB when zip compressed),
+and a link for the data will be provided
+in the future
+if data hosting is available.
+
+Nevertheless,
+the main result maps are given in the directory `b-r95`
+and `b-u95`.
+The maps are built using the command `diff map`,
+with a KDE of $\lambda$ 1000.
+The directory `b-r95`
+contains the posterior of the pixels
+under the paleogeographic model.
+The directory `b-u95`
+contains the same posteriors,
+but rotated into current geographic locations,
+which might be helpful
+to understand the results.
+Each map has the convention
+`<type>-<tree>-n<node id>-<age>.png`,
+in which `<type>`
+indicates the type of the reconstruction
+(r95 for maps with paleogeography,
+u95 for maps with current geographic locations),
+`<tree>` indicates the tree
+(in this case joyce2023),
+`<node id>` is the identifier of the node
+(that can be consulted in the file `tree-joyce2023.svg`),
+and `<age>` is the age in million years.
+
+```bash
+phygeo diff map -c 1440 -key landscape-key.tab -gray -kde 1000 -i project.tab-joyce2023-sampling-1000x100.tab -o "b-r95/r95" project.tab
+phygeo diff map -c 1440 -key landscape-key.tab -gray -kde 1000 -unrot -contour <contour-map> -i project.tab-joyce2023-sampling-1000x100.tab -o "b-u95/u95" project.tab
+```
+
+The speed is calculated with the command `diff speed`,
+a tree with the speed of branches
+is stored as `speed-joyce2023.svg`,
+and a log file with the distances,
+the confidence interval,
+and the average velocity is stored in `speed-branch.txt`.
+
+```bash
+phygeo diff speed -tree speed -step 5 -box 10 -i project.tab-joyce2023-sampling-1000x100.tab project.tab > speed-branch.txt
+```
+
 ## References
 
 References are also available as BiBTeX in the file `biblio.bib`.

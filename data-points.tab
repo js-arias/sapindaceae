@@ -1,5 +1,5 @@
 # taxon distribution range models
-# data save on : 2023-09-25T17:03:33-03:00
+# data save on : 2024-05-13T15:16:08-03:00
 taxon	type	age	equator	pixel	density
 Acer campestre	points	0	360	2097	1.000000
 Acer campestre	points	0	360	2772	1.000000
@@ -926,6 +926,7 @@ Allophylus arboreus	points	0	360	27390	1.000000
 Allophylus arboreus	points	0	360	28064	1.000000
 Allophylus arboreus	points	0	360	28731	1.000000
 Allophylus arboreus	points	0	360	29387	1.000000
+Allophylus graciliformis	points	46000000	360	37067	1.000000
 Allophylus trichodesmus	points	0	360	24966	1.000000
 Allophylus trichodesmus	points	0	360	25317	1.000000
 Allophylus trichodesmus	points	0	360	25667	1.000000
@@ -2941,6 +2942,12 @@ Diplopeltis huegelii	points	0	360	31960	1.000000
 Diplopeltis huegelii	points	0	360	32262	1.000000
 Diplopeltis huegelii	points	0	360	32555	1.000000
 Diplopeltis huegelii	points	0	360	32556	1.000000
+Dipteronia brownii	points	56000000	360	3077	1.000000
+Dipteronia brownii	points	56000000	360	3467	1.000000
+Dipteronia brownii	points	56000000	360	3876	1.000000
+Dipteronia brownii	points	56000000	360	3877	1.000000
+Dipteronia brownii	points	56000000	360	4757	1.000000
+Dipteronia brownii	points	56000000	360	5477	1.000000
 Dipteronia dyeriana	points	0	360	12006	1.000000
 Dipteronia dyeriana	points	0	360	12665	1.000000
 Dipteronia dyeriana	points	0	360	12666	1.000000
@@ -4957,6 +4964,7 @@ Jagera javanica	points	0	360	24001	1.000000
 Jagera javanica	points	0	360	24357	1.000000
 Jagera javanica	points	0	360	24358	1.000000
 Jagera javanica	points	0	360	24359	1.000000
+Koelreuteria allenii	points	52000000	360	6761	1.000000
 Koelreuteria paniculata	points	0	360	6647	1.000000
 Koelreuteria paniculata	points	0	360	6915	1.000000
 Koelreuteria paniculata	points	0	360	7184	1.000000

@@ -51,7 +51,10 @@ the relationships and ages were extracted manually
 from the figures.
 The phylogeny was augmented
 with a few terminals from Buerki et al. (2013),
-mostly to enlarge the sampling of a few genera.
+mostly to enlarge the sampling of a few genera
+and fossil taxa used as stem calibration points
+in Joyce et al. (2023)
+were added as sisters of the indicated clade.
 The species *Matayba tenax* was excluded,
 as it does not match any *Maytaba* species or synonym
 in the [Plants of the World](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000506-2) database,
@@ -135,8 +138,7 @@ As there are no geo-referenced specimen records for *Euchorium cubense*,
 a record file based on [a material citation for the taxon](https://www.gbif.org/occurrence/4135894102)
 is stored in the file `raw-euchorium-records.tab`.
 
-Finally,
-using the [taxRange](https://github.com/js-arias/ranges) tool,
+Using the [taxRange](https://github.com/js-arias/ranges) tool,
 the filtered GBIF records are transformed into a file
 with presence pixels.
 
@@ -147,6 +149,17 @@ taxrange imp.points -e 360 -f text -o raw-euchorium-points.tab raw-euchorium-rec
 
 The resulting file is stored in `raw-points.tab`.
 The directory `terminals` stores the maps of the used distribution ranges.
+
+Using the references given by Joyce et al. (2023),
+I added some fossil records to the file `raw-fossil-records.tab`.
+Then these records were added to the points file
+after the project was created.
+Then fossil records were rotated to their past locations:
+
+```bash
+phygeo range add -type points -format text project.tab raw-fossils-records.tab 
+phygeo range rotate project.tab 
+```
 
 ## Analysis
 

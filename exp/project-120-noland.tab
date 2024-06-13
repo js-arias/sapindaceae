@@ -1,0 +1,8 @@
+# phygeo project files
+# data save on: 2024-05-15T10:16:02-03:00
+dataset	path
+geomotion	nomotion-motion-120.tab
+landscape	nomotion-landscape-120.tab
+pixprior	noland-pix-prior.tab
+points	data-points.tab
+trees	data-tree.tab

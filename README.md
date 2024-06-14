@@ -74,6 +74,16 @@ removing synonyms from the tree.
 - `tree-joyce2023.svg`:
   This file contains a drawing of the phylogenetic tree.
 
+A tree was edited to remove the four faster branches
+(*Lecanodiscus*,
+*Podonephelium*,
+*Tina*, and
+*Toechima*).
+
+- `tree-trim.tab`:
+  This file contains the phylogeny
+  with the four faster branches removed.
+
 ### Distribution records
 
 Specimen data were obtained
@@ -195,93 +205,158 @@ phygeo range add -f data-points.tab -type points project.tab raw-points.tab
 phygeo range add -type points project.tab raw-euchorium-points.tab 
 ```
 
+A project using the tree without the four faster branches
+was created in the same way
+and stored as `project-trim.tab`.
+
 ## Results
 
 ### Estimation
 
 Maximum likelihood
 was estimated using the command `diff ml` of `PhyGeo`.
-The output log is stored in log-ml.txt file:
+The output log is stored in `log-ml.txt` file:
 
 ```bash
 phygeo diff ml project.tab > log-ml.txt
 ```
 
-The maximum likelihood estimation of $\lambda$ was 35.9.
+The maximum likelihood estimation of $\lambda$ was 19.5.
 
-Then,
-an estimation of the posterior distribution
-using a uniform prior between 0 and 200
-was made with the command `diff integrate`,
-and storing the output in the log file `log-like.txt`:
+The same procedure was used to estimate
+the maximum likelihood
+with the trimmed tree,
+which was stored as `log-trim-ml.txt`.
+The maximum likelihood estimation of $\lambda$ was 32.8.
+
+To estimate the shape of the likelihood function,
+the command `diff integrate` was used,
+estimating likelihood values for $\lambda$
+between 0 and 50.
+The output is stored in `log-file.txt`.
 
 ```bash
-phygeo diff integrate -parts 100 -max 200 project > log-like.txt
+phygeo diff integrate -parts 100 -max 50 project.tab > log-like.txt
 ```
 
-Using these results,
-the posterior distribution of the pixels
-is calculated by approximating
-the posterior distribution of $\lambda$
-with a [gamma distribution](https://en.wikipedia.org/wiki/Gamma_distribution),
-with $\alpha$=108, $\beta$=3 (rate),
-and making 1000 samples from this distribution,
-and calculating 100 stochastic mappings
-from each sample:
+The same procedure was used for the project with the trimmed tree,
+but for $\lambda$ values between 0 and 100.
+The results were stored as `log-trim-like.txt`.
+
+To estimate the conditional likelihoods on each node,
+the command `diff like` was used.
+For the final results,
+the $\lambda$ value used
+was the one estimated without the four fast branches
+but using the full tree.
+For the sake of completeness,
+the same procedure was also used
+for the maximum likelihood estimate of $\lambda$ with the full tree.
+Unfortunately,
+the resulting files are too large to be stored in this repository.
 
 ```bash
-phygeo diff integrate -distribution gamma="108,3" -p 100 --parts 1000 project
+phygeo diff like -lambda 32.8 -o l33 project.tab
+```
+
+The stochastic map was performed using 10,000 particles,
+with the command `diff particles`,
+and using the conditionals for a $\lambda$ value of 32.8.
+Again,
+for the sake of completeness,
+the same procedure was followed
+with the results of the maximum likelihood estimate.
+Given the size of the tree
+and the number of particles,
+the resulting files are too large for this repository.
+
+```bash
+phygeo diff particles -p 10000 -i l33-project.tab-joyce2023-32.800000-down.tab -o p-l33 project.tab
 ```
 
 ### Outputs
 
-The output is quite large to be posted here
-(about 4.3 GB,
-or 962 MB when zip compressed),
-and a link for the data will be provided
-in the future
-if data hosting is available.
+While the file with the particles is too large to be posted here,
+the raw frequencies are calculated with the command
+`diff freq`
+and posted as a compressed file `freq-l33-project.tab.zip`.
 
-Nevertheless,
-the main result maps are given in the directory `b-r95`
-and `b-u95`.
-The maps are built using the command `diff map`,
-with a KDE of $\lambda$ 1000.
-The directory `b-r95`
-contains the posterior of the pixels
-under the paleogeographic model.
-The directory `b-u95`
-contains the same posteriors,
-but rotated into current geographic locations,
-which might be helpful
-to understand the results.
+```bash
+phygeo diff freq -i p-l33-joyce2023-32.800000x10000.tab -o freq-l33 project.tab
+```
+
+The same procedure was used for the maximum likelihood estimate of $\lambda$,
+stored as `freq-ml-project.tab.zip`.
+
+For the output maps,
+a KDE using a spherical normal with lambda 1000
+was built from the particle file.
+The same procedure
+was used for the maximum likelihood estimate.
+
+```bash
+phygeo diff freq -kde 1000 -i p-l33-joyce2023-32.800000x10000.tab -o kde-l33 project.tab
+```
+
+Even as KDE,
+the files are too large to be posted in this repository,
+so the maps for all the reconstructions are provided.
+And stored in the directory `maps-l33-k95`.
+Use `tree-joyce2023.svg`
+for the node numbers.
+
+```bash
+phygeo diff map -c 1440 -key landscape-key.tab -gray -i kde-l33-project.tab-p-l33-joyce2023-32.800000x10000.tab.tab -o "maps-l33-k95/l33-k95" project.tab
+```
+
+Maps
+(in lower resolution)
+with 50% of the KDE are stored
+in the directory `maps-l33-k50`.
+
+```bash
+phygeo diff map -c 360 -key landscape-key.tab -gray -bound 0.5 -i kde-l33-project.tab-p-l33-joyce2023-32.800000x10000.tab.tab -o "maps-l33-k50/k50" project.tab 
+```
+
+Maps for lineage richness
+are stored in the directories `maps-l33-rich`
+and `maps-l33-rich-u` for the maps using paleogeographic reconstructions
+and maps rotated to present time,
+respectively.
+
+```bash
+phygeo diff map -c 1440 -key landscape-key -gray -richness -i kde-l33-project.tab-p-l33-joyce2023-32.800000x10000.tab.tab -o "maps-l33-rich/l33-r" project.tab
+
+phygeo diff map -c 1440 -key landscape-key -gray -richness -unrot -i kde-l33-project.tab-p-l33-joyce2023-32.800000x10000.tab.tab -o "maps-l33-rich/l33-ru" project.tab
+```
+
 Each map has the convention
 `<type>-<tree>-n<node id>-<age>.png`,
 in which `<type>`
 indicates the type of the reconstruction
-(r95 for maps with paleogeography,
-u95 for maps with current geographic locations),
+(for example l33-k95 for maps form $\lambda$ 32.8,
+and KDE of 95%),
 `<tree>` indicates the tree
 (in this case joyce2023),
 `<node id>` is the identifier of the node
 (that can be consulted in the file `tree-joyce2023.svg`),
 and `<age>` is the age in million years.
 
-```bash
-phygeo diff map -c 1440 -key landscape-key.tab -gray -kde 1000 -i project.tab-joyce2023-sampling-1000x100.tab -o "b-r95/r95" project.tab
-phygeo diff map -c 1440 -key landscape-key.tab -gray -kde 1000 -unrot -contour <contour-map> -i project.tab-joyce2023-sampling-1000x100.tab -o "b-u95/u95" project.tab
-```
-
 The speed is calculated with the command `diff speed`,
 a tree with the speed of branches
-is stored as `speed-joyce2023.svg`,
+is stored as `speed-l33-joyce2023.svg`,
 and a log file with the distances,
 the confidence interval,
-and the average velocity is stored in `speed-branch.txt`.
+and the average velocity is stored in `speed-l33.tab`.
 
 ```bash
-phygeo diff speed -tree speed -step 5 -box 10 -i project.tab-joyce2023-sampling-1000x100.tab project.tab > speed-branch.txt
+phygeo diff speed -tree speed-l33 -step 5 -box 10 -i p-l33-joyce2023-32.800000x10000.tab project.tab > speed-l33.tab
 ```
+
+The same procedure was performed
+with the maximum likelihood estimate,
+and the results stored as `speed-ml-joyce.svg`
+and `speed-ml.tab`.
 
 ## References
 
